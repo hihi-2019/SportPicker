@@ -5,17 +5,23 @@ const icehockey = sportData.icehockey
 
 
 router.get('/icehockey', (req, res) =>{
+    const team = {
+        team: icehockey
+    }
+    res.render("./partials/team", team) 
     
-    res.send("hello")
 })
 
 router.get('/icehockey/:id', (req, res) =>{
     
-    let iceHockeyTeam = sportData.icehockey.find(function(element){
+    const icehockeyInfo = {
+        Team: sportDicehockeyball.find(function(element){
             return element.id == req.params.id
-        })
+        }),
+        sport: icehockey
+    }
 
-        res.render("partials/iceHockey", iceHockeyTeam)
+        res.render("partials/iceHockey", Team)
 })
 
 

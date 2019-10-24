@@ -7,18 +7,21 @@ const rugby = sportData.rugby
 // console.log(rugby)
 
 router.get('/rugby', (req, res) =>{
-    console.log(rugby)
-    
-    // res.render("/partials/rugby", rugby) something like this 
+    const team = {
+        team: rugby
+    }
+    res.render("./partials/team", team) 
 })
 
 router.get('/rugby/:id', (req, res) =>{
     
-    let rugbyTeam= sportData.rugby.find(function(element){
-            return element.id == req.params.id
-        })
-        console.log(rugbyTeam)
-        // res.render("partials/rugby", rugbyTeam)
+    // const rugbyInfo = {
+    //     Team: sportData.rugby.find(function(element){
+    //         return element.id == req.params.id
+    //     }),
+    //     sport: rugby
+    // }
+        // res.render("partials/team", rugbyInfo)
 })
 
 

@@ -4,20 +4,24 @@ const sportData = require('../sportData')
 const football = sportData.football
 
 router.get('/football', (req, res) =>{
+    const team = {
+        team: football
+    }
+    res.render("./partials/team", team) 
     
-    res.send("hello")
 })
-// console.log(sportData.football)
+
 
 router.get('/football/:id', (req, res) =>{
     
-    let footBallTeam= sportData.football.find(function(element){
+    const footballInfo = {
+        Team: sportData.football.find(function(element){
             return element.id == req.params.id
-      
-        })
-        console.log(footBallTeam)
+        }),
+        sport: football
+    }
 
-        // res.render("partials/football", footBallTeam)
+        // res.render("partials/football", Team)
 })
 
 
