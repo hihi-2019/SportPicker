@@ -28,10 +28,6 @@ server.get('/sports', (req, res) => {
 
 
 
-server.get('/', (req, res) => {
-  res.redirect('/puppies')
-})
-
 
 
 module.exports = server

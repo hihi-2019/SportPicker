@@ -1,7 +1,33 @@
-img{
-  width: 10%;
+img {
+  width: 50%;
 }
 
 li {
   display: inline;
+}
+
+div.main-content {
+  font-family: "Libre Franklin", sans-serif;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 15%;
+}
+
+div.img-col1 {
+  width: 50%;
+  border: 0.5px solid grey;
+  text-align: center;
+}
+
+div.img-row1 {
+  display: flex;
+  border: 0.5px solid grey;
+  margin-bottom: 30px;
+}
+
+div.img-row2 {
+  display: flex;
+  border: 0.5px solid grey;
+  margin-bottom: 30px;
 }
