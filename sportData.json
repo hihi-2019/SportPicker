@@ -1,0 +1,34 @@
+{
+    "rugby": {
+        "allblacks": {"id": 1,
+                        "name": "All Blacks",
+                        "origin": "New Zealand",
+                        "placing": "no.1",
+                        "comments": ""
+                    },
+        "springboks": {"id": 2,
+                        "name": "Springboks",
+                        "origin": "South Africa",
+                        "placing": "no.3",
+                        "comments": ""
+                    },
+        "wallabies": {"id": 3,
+                        "name": "Wallabies",
+                        "origin": "Australia",
+                        "placing": "no.4",
+                        "comments": ""
+                    },
+        "pumas":    {"id": 1,
+                        "name": "Pumas",
+                        "origin": "Argentina",
+                        "placing": "no.1",
+                        "comments": ""
+                    }
+        
+    
+    
+    },
+    "basketball": [],
+    "football": [],
+    "icehockey": []
+}
