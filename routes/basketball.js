@@ -1,10 +1,9 @@
 const express = require('express')
 const router = express.Router()
 const sportData = require('../sportData')
-const icehockey = sportData.icehockey
+const basketball = sportData.basketball
 
-
-router.get('/icehockey', (req, res) =>{
+router.get('/basketball', (req, res) =>{
     
     res.send("hello")
 })
