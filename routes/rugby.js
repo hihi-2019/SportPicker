@@ -7,6 +7,7 @@ const rugby = sportData.rugby
 // console.log(rugby)
 
 router.get('/rugby', (req, res) =>{
+    console.log(rugby)
     
     // res.render("/partials/rugby", rugby) something like this 
 })
@@ -19,6 +20,7 @@ router.get('/rugby/:id', (req, res) =>{
         console.log(rugbyTeam)
         // res.render("partials/rugby", rugbyTeam)
 })
+
 
 
 module.exports = router
