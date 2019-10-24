@@ -22,7 +22,7 @@ server.use(express.urlencoded({extended: false}))
 
 
 server.get('/sports', (req, res) => {
-  res.send("hello")
+  res.render('home')
 })
 
 
