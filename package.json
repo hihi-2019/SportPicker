@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "nodemon index.js",
+    "debug": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "debug": "nodemon"
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
