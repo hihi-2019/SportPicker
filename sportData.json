@@ -1,109 +1,126 @@
 {
-    "rugby": {
-        "allblacks": {"id": 1,
-                        "name": "All Blacks",
-                        "origin": "New Zealand",
-                        "placing": "no.1",
-                        "comments": "Add comment"
-                    },
-        "springboks": {"id": 2,
-                        "name": "Springboks",
-                        "origin": "South Africa",
-                        "placing": "no.3",
-                        "comments": "Add comment"
-                    },
-        "wallabies": {"id": 3,
-                        "name": "Wallabies",
-                        "origin": "Australia",
-                        "placing": "no.4",
-                        "comments": "Add comment"
-                    },
-        "pumas":    {"id": 4,
-                        "name": "Pumas",
-                        "origin": "Argentina",
-                        "placing": "no.2",
-                        "comments": "Add comment"
-                    }
-        
-    
-    
-    },
-    "basketball": {
-        "lakers": {"id": 1,
-                   "name": "Lakers",
-                   "origin": "Los Angeles",
-                   "placing": "no.3",
-                   "comments": "Add comment"
-                  },
-        "thunder": {"id": 2,
-                    "name": "Thunder",
-                    "origin": "Oklahoma",
-                    "placing": "no.4",
-                    "comments": "Add comment"
-                   },
-        "clippers": {"id": 3,
-                    "name": "Clippers",
-                    "origin": "Los Angeles",
-                    "placing": "no.1",
-                    "comments": "Add comment"
-                   },
-        "warriors": {"id": 4,
-                    "name": "Warriors",
-                    "origin": "San Francisco",
-                    "placing": "no.2",
-                    "comments": "Add comment"
-                   }
-    },
-    "football": {
-        "liverpool": {"id": 1,
-            "name": "Liverpool FC",
-            "origin": "England",
-            "placing": "no.2",
-            "comments": "Add comment"
-           },
-    "manchesterCity": {"id": 2,
-             "name": "Manchester City",
-             "origin": "England",
-             "placing": "no.4",
-             "comments": "Add comment"
-            },
-    "barcelona": {"id": 3,
-             "name": "Barcelona",
-             "origin": "Spain",
-             "placing": "no.1",
-             "comments": "Add comment"
-            },
-    "ajaxAmsterdam": {"id": 4,
-             "name": "Ajax Amsterdam",
-             "origin": "Netherlands",
-             "placing": "no.3",
-             "comments": "Add comment"
-            }
-    },
-    "icehockey": {
-        "lightning": {"id": 1,
-            "name": "Lighting",
-            "origin": "Tampa Bay",
-            "placing": "no.4",
-            "comments": "Add comment"
-           },
-    "penguins": {"id": 2,
-             "name": "Penguins",
-             "origin": "Pittsburgh",
-             "placing": "no.2",
-             "comments": "Add comment"
-            },
-    "mapleLeafs": {"id": 3,
-             "name": "Maple Leafs",
-             "origin": "Toronto",
-             "placing": "no.3",
-             "comments": "Add comment"
-            },
-    "bruins": {"id": 4,
-             "name": "Bruins",
-             "origin": "Boston",
-             "placing": "no.1",
-             "comments": "Add comment"
-            }
-    }
+    "rugby": [
+        {"id": 1,
+        "name": "All Blacks",
+        "image": "/images/rugby/allblacks.jpg",
+        "origin": "New Zealand",
+        "placing": "no.1",
+        "comments": "Add comment"
+        },
+        {"id": 2,
+        "name": "Springboks",
+        "image": "/images/rugby/springboks.jpg",
+        "origin": "South Africa",
+        "placing": "no.3",
+        "comments": "Add comment"
+        },
+        {"id": 3,
+        "name": "Wallabies",
+        "image": "/images/rugby/wallabies.png",
+        "origin": "Australia",
+        "placing": "no.4",
+        "comments": "Add comment"
+        },
+        {"id": 4,
+        "name": "Pumas",
+        "image": "/images/rugby/pumas.jpg",
+        "origin": "Argentina",
+        "placing": "no.2",
+        "comments": "Add comment"
+        }
+    ],
+
+
+    "basketball": [
+        {"id": 1,
+        "name": "Lakers",
+        "image": "/images/basketball/lakers.svg",
+        "origin": "Los Angeles",
+        "placing": "no.3",
+        "comments": "Add comment"
+        },
+        {"id": 2,
+        "name": "Thunder",
+        "image": "/images/basketball/oklahoma.svg",
+        "origin": "Oklahoma",
+        "placing": "no.4",
+        "comments": "Add comment"
+        },
+        {"id": 3,
+        "name": "Clippers",
+        "image": "/images/basketball/clippers.svg",
+        "origin": "Los Angeles",
+        "placing": "no.1",
+        "comments": "Add comment"
+        },
+        {"id": 4,
+        "name": "Warriors",
+        "image": "/images/basketball/warriors.svg",
+        "origin": "San Francisco",
+        "placing": "no.2",
+        "comments": "Add comment"
+        }
+    ],
+
+
+    "football": [
+        {"id": 1,
+        "name": "Liverpool FC",
+        "image": "/images/football/liverpool.svg",
+        "origin": "England",
+        "placing": "no.2",
+        "comments": "Add comment"
+        },
+        {"id": 2,
+        "name": "Manchester City",
+        "image": "/images/football/manchesterCity.png",
+        "origin": "England",
+        "placing": "no.4",
+        "comments": "Add comment"
+        },
+        {"id": 3,
+        "name": "Barcelona",
+        "image": "/images/football/barcelona.png",
+        "origin": "Spain",
+        "placing": "no.1",
+        "comments": "Add comment"
+        },
+        {"id": 4,
+        "name": "Ajax Amsterdam",
+        "image": "/images/football/ajaxAmsterdam.jpg",
+        "origin": "Netherlands",
+        "placing": "no.3",
+        "comments": "Add comment"
+        }
+        ],
+    "icehockey": [
+        {"id": 1,
+        "name": "Lighting",
+        "images": "/images/lightning.png",
+        "origin": "Tampa Bay",
+        "placing": "no.4",
+        "comments": "Add comment"
+        },
+        {"id": 2,
+        "name": "Penguins",
+        "images": "/images/penguin.png",
+        "origin": "Pittsburgh",
+        "placing": "no.2",
+        "comments": "Add comment"
+        },
+        {"id": 3,
+        "name": "Maple Leafs",
+        "images": "/images/mapleLeafs.png",
+        "origin": "Toronto",
+        "placing": "no.3",
+        "comments": "Add comment"
+        },
+        {"id": 4,
+        "name": "Bruins",
+        "images": "/images/bruins.png",
+        "origin": "Boston",
+        "placing": "no.1",
+        "comments": "Add comment"
+        }
+    ]
 }
