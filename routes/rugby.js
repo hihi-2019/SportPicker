@@ -8,20 +8,21 @@ const rugby = sportData.rugby
 
 router.get('/rugby', (req, res) =>{
     const team = {
-        team: rugby
+        team: rugby,
+        sport: rugby
     }
     res.render("./partials/team", team) 
 })
 
 router.get('/rugby/:id', (req, res) =>{
-    
-    // const rugbyInfo = {
-    //     Team: sportData.rugby.find(function(element){
-    //         return element.id == req.params.id
-    //     }),
-    //     sport: rugby
-    // }
-        // res.render("partials/team", rugbyInfo)
+    const id = req.params.id
+    const rugbyInfo = {
+        Team: sportData.rugby.find(function(element){
+            return element.id == req.params.id
+        }),
+    }
+
+    res.render("partials/bio", rugbyInfo.Team)
 })
 
 
