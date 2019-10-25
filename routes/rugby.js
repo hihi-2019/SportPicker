@@ -9,7 +9,7 @@ const rugby = sportData.rugby
 router.get('/rugby', (req, res) =>{
     const team = {
         team: rugby,
-        sport: rugby
+        sport: "rugby"
     }
     res.render("./partials/team", team) 
 })
