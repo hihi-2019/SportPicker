@@ -7,7 +7,7 @@ router.get('/football', (req, res) =>{
     const team = {
         team: "football"
     }
-    res.render("./partials/team", team) 
+    res.render("partials/team", team) 
     
 })
 

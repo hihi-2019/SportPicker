@@ -22,8 +22,11 @@ server.use('/sports', icehockey)
 
 
 server.get('/sports', (req, res) => {
-  res.render('home')
+  
+  res.render('partials/home')
 })
+
+
 
 
 

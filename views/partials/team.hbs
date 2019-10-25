@@ -1,9 +1,11 @@
-<ul>
-    
-    {{#each team}}
-    <h1>{{name}}</h1>
-    <li><a href="/sports/{{../sport}}/{{id}}"><img src="{{image}}"></li></a>
-    
-    {{/each}}
-</ul>
+
+
+
+{{!-- {{>header}} --}}
+{{#each team}}
+<div class="img-col1">
+    <h2 class="footballTitle">{{name}}</h2>
+    <a href="/sports/{{../sport}}/{{id}}"><img class="center" src="{{image}}"></a>
+</div>
+{{/each}}
 

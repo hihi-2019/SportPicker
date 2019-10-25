@@ -1,10 +1,10 @@
-const express = require('express')
-const router = express.Router()
-const sportData = require('../sportData')
-const rugby = sportData.rugby
+const express = require("express");
+const router = express.Router();
+const sportData = require("../sportData");
+const rugby = sportData.rugby;
 
 
-// console.log(rugby)
+
 
 router.get('/rugby', (req, res) =>{
     const team = {
@@ -28,3 +28,4 @@ router.get('/rugby/:id', (req, res) =>{
 
 
 module.exports = router
+
